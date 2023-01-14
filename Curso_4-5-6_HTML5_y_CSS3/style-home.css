@@ -36,6 +36,11 @@ em strong{
     font-style: italic;
 }
 
+.menu{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
 ul{
     display: inline-block;
     vertical-align: top;
