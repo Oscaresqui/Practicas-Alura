@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <meta charset="utf-8">
 
 <h1>PROGRAMA - VER LOS PARES DEL NUMERO SELECCIONADO</h1>
@@ -31,4 +32,39 @@
 
 	imprimir("FIN");
 
+=======
+<meta charset="utf-8">
+
+<h1>PROGRAMA - VER LOS PARES DEL NUMERO SELECCIONADO</h1>
+
+<script>
+
+	function saltarLinea() {
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarLinea();
+
+	}
+
+	var numeroCalculo = parseInt(prompt("Ingrese el numero que quiere ver los pares"));
+	var contador = 2;
+	var totalEdades = 0;
+
+	while(contador <= numeroCalculo){
+
+		imprimir(contador)
+		contador = contador + 2;
+
+	}
+
+	imprimir("FIN");
+
+>>>>>>> 05fa3a2c02c2c65de202b4748698a5d4e38a2a0f
 </script>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <meta charset="utf-8">
 
 <h1>PROGRAMA - INICIO DE SESION</h1>
@@ -46,4 +47,54 @@
 	    intentos++
 	}
 
+=======
+<meta charset="utf-8">
+
+<h1>PROGRAMA - INICIO DE SESION</h1>
+
+<script>
+
+	function saltarLinea() {
+
+		document.write("<br>");
+
+	}
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarLinea();
+
+	}
+
+    var inicioDeSesionRegistrado = "alura";
+    var contrasenhaRegistrada = "alura321";
+    var intentos = 1;
+
+    while(intentos <= 3){
+
+    	var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+    	var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+	    if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+
+	        alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+	        break;
+
+	    } else {
+
+	    	if(intentos == 3){
+	    		alert("Agotaste el numero de intentos");
+
+	    	} else {
+
+	        alert("inicio de sesión inválido. Favor intente de nuevo");
+
+	        }
+
+	    }
+	    intentos++
+	}
+
+>>>>>>> 05fa3a2c02c2c65de202b4748698a5d4e38a2a0f
 </script>
